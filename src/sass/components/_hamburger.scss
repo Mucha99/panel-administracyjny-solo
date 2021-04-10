@@ -1,0 +1,23 @@
+.hamburger {
+  height: 16px;
+  width: 20px;
+  border: 0;
+  border-top: 3px solid $font-main-color;
+  background: transparent;
+  position: relative;
+}
+
+.hamburger::before,
+.hamburger::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border-top: 3px solid $font-main-color;
+  transform: translateY(5px);
+}
+
+.hamburger::after {
+  transform: translateY(15px);
+}
