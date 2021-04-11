@@ -7,6 +7,7 @@
   display: flex;
   justify-content: flex-end;
   font-family: $paragraph-font;
+  z-index: 1;
 
   .top-main {
     .list-inline {

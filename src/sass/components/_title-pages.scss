@@ -1,0 +1,12 @@
+.title-pages {
+  font-family: $paragraph-font;
+  color: $dark-gray-color;
+  padding-left: 20px;
+  font-size: 15px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  height: 50px;
+  border-bottom: 1px solid $font-main-color;
+  background-color: $light-color;
+}

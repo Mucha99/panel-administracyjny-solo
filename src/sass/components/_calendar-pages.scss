@@ -1,0 +1,30 @@
+.calendar-pages {
+  background-color: $light-color;
+  min-height: 100px;
+  border-bottom: 1px solid $font-main-color;
+  // margin: 0 auto;
+  display: flex;
+  align-items: center;
+
+  .content {
+    margin: 0 auto;
+  }
+
+  .calendar {
+    border: solid 1px $font-main-color;
+    border-radius: 5px;
+    height: 40px;
+  }
+
+  .calendar-btn {
+    padding: 0;
+    width: 30px;
+    height: 30px;
+  }
+
+  img {
+    width: 15px;
+    height: 15px;
+    margin: 0 auto;
+  }
+}

@@ -6,10 +6,17 @@
 
 /* Components */
 @import "components/hamburger";
+@import "components/title-pages";
+@import "components/btn-pages";
+@import "components/subtitle-pages";
+@import "components/dot-pages";
+@import "components/calendar-pages";
+@import "components/data-pages";
 
 /* Sections */
 @import "sections/topbar";
 @import "sections/sidebar";
+@import "sections/main";
 
 /* Pages / Views */
-// @import "pages/registration";
+@import "pages/general-statistic";

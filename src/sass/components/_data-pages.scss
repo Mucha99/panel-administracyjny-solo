@@ -1,0 +1,18 @@
+.data-pages {
+  max-width: 300px;
+  max-height: 40px;
+  width: 100%;
+  display: flex;
+  border-bottom: 1px solid $font-main-color;
+  .subtitle-pages {
+    margin-top: 10px;
+    width: 100%;
+  }
+  .number {
+    font-family: $paragraph-font;
+    font-size: 19px;
+    width: 100%;
+    margin-right: 5px;
+    text-align: right;
+  }
+}
