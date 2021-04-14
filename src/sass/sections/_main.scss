@@ -6,3 +6,11 @@
   margin-left: 17vw;
   margin-right: 5vw;
 }
+
+/* MEDIA*/
+@media (max-width: 768px) {
+  .container {
+    width: 90vw;
+    margin-left: 5vw;
+  }
+}
