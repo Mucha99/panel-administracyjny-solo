@@ -1,6 +1,8 @@
+/* eslint-disable no-undef */
 /* eslint-disable quotes */
 var ctx = document.getElementById("myChart").getContext("2d");
 
+// eslint-disable-next-line no-unused-vars
 var chart = new Chart(ctx, {
   // 1
   type: "bar",
